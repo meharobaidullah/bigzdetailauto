@@ -120,21 +120,26 @@
   </div>
   </section>
 
-  <section id="contact">
+  section id="contact">
 
     <h1>Want your car to look like new again? <br> Contact me!</h1>
     <p>Number: (314) 265-3501</p>
-    <p>Email: bigzautodetail@gmail.com</p>
-    <form class="" action="mailto:bigzautodetail@gmail.com" method="post">
-    <label>Your Name:</label>
-    <input type="name" name=""><br>
-    <label>Your Email:</label>
-    <input type="email" name="" value=""><br>
-    <strong><label>Your job for me:</label></strong><br>
-    <textarea name="name" rows="5" cols="50"></textarea><br>
-    <label>Want me to reach out?</label>
-    <input type="checkbox" name="">
-    <input type="submit" name="">
+    <p>Email: bigzautodetail@gmail.com</p><br>
+    <h3>Want me to contact you instead?</h3>
+      <form action="mailto:bigzautodetail@gmail.com"
+      
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+    Name:<br>
+    <input type="text" size="19" name="Contact-Name" class="email"><br><br>
+    Email:<br>
+    <input type="email" name="Contact-Email" class="email"><br><br> 
+    Message:<br> 
+    <textarea name="Contact-Message" rows="6″ cols="20″>
+    </textarea><br><br> 
+    <button type="submit" value="Submit" class="email">Send</button>
+</form>
   </section>
 
 <section class="footer">
